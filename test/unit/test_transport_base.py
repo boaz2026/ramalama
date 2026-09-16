@@ -89,7 +89,7 @@ def force_oci_artifact(monkeypatch):
             "http://127.0.0.1:5000/LiheYoung/depth-anything-small-hf/resolve/main/model.safetensors",
             "model.safetensors",
             "latest",
-            "127.0.0.1/LiheYoung/depth-anything-small-hf/resolve/main",
+            "127.0.0.1:5000/LiheYoung/depth-anything-small-hf/resolve/main",
         ),
         (
             "https://huggingface.co/LiheYoung/depth-anything-small-hf/resolve/main/model.safetensors",
@@ -101,7 +101,7 @@ def force_oci_artifact(monkeypatch):
             "http://localhost:8080/org/repo/resolve/main/file.gguf",
             "file.gguf",
             "latest",
-            "localhost/org/repo/resolve/main",
+            "localhost:8080/org/repo/resolve/main",
         ),
     ],
 )
